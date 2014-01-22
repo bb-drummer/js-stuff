@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>Insert title here</title>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+		<!-- script type="text/javascript" src="global_timer.js"></script -->
+		<script type="text/javascript" src="http://localhost/projects/buch.de/repository/buch_ecommerce_templates/shop/base/js/src/p-ad.js/global_timer.min.js"></script>
+		<script type="text/javascript">
+
+		</script>
+	</head>
+	<body>
+	
+		<table id="myTable">
+			<tr>
+				<td>start Timer </td>
+				<td><button name="startTimer" onclick="console.log('click start'); console.debug(oTimer); oTimer.run();">start</button></td>
+			</tr>
+			<tr>
+				<td>stop Timer </td>
+				<td><button name="stopTimer" onclick="console.log('click stop'); oTimer.stop();">stop</button></td>
+			</tr>
+		</table>
+		
+		
+		<script type="text/javascript">
+		var day = 16;
+		addTimer({				//   m    s
+			start		: (new Date( 2013, 9, day, 19,  0,  0 )).getTime(),
+			stop		: (new Date( 2013, 9, day, 19, 59, 59 )).getTime(),
+			classnames	: 'campaignClassName'
+		});
+		addTimer({				//   m      s
+			start		: (new Date( 2013, 9, day,  0,  0,  0 )).getTime(),
+			stop		: (new Date( 2013, 9, day, 23, 59, 59 )).getTime(),
+			repeat		: true,
+			callback	: function () { 
+				console.log('- additionally added callback repeatedly executed'); 
+			}
+		});
+		setTimerUrlParam('mytesttime');
+		addTimer({				//   m    s
+			start		: (new Date( 2013, 9, day, 17,  0,  0 )).getTime(),
+			stop		: (new Date( 2013, 9, day, 19, 59, 59 )).getTime(),
+			classnames	: 'anotherCampaignName'/*,
+			callback	: function ( index, data ) { 
+				console.log('- additionally added callback executed only once'); //console.debug(this); //console.debug(index); console.debug(timer); 
+			}*/
+		});
+		</script>
+		
+		<script type="text/javascript">
+		var ttime = (new Date( 2013, 10,  7,  9,  0,  0 )).getTime(); console.debug( ttime );
+		$(document).ready(function ( ) {
+			shopTimestamp = parseInt('0', 10) || Date.now();
+			initTimer(shopTimestamp);
+		});
+		</script>
+		
+	</body>
+</html>

